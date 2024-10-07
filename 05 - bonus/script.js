@@ -55,15 +55,17 @@ const helloBonus2 = (greeting, name) => {
     return `${greeting} ${name}`
 }
 
+//arrow function semplificata
+
+const helloBonus3 = (greeting, name) => `${greeting} ${name}`;
+
 // Invoca la funzione qui e stampa il risultato in console
 console.log(helloBonus(name));
 
 //invocazione arrow function
 console.log(helloBonus2('buonasera', 'Mario'));
 
-
-
-
-
+//invocazione arrow function semplificata
+console.log(helloBonus3('buonasera', 'Mario'));
 
 //Risultato atteso se si passa 'Mario' alle 18: // Buonasera Mario.
