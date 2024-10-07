@@ -4,6 +4,9 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+function(array, letter) {
+    const newArray = []
+}
 
 
 // Invoca la funzione qui e stampa il risultato in console
