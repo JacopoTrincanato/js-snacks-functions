@@ -51,7 +51,7 @@ function helloBonus(name) {
 }
 
 //arrow function
-function helloBonus2(greeting, name) {
+const helloBonus2 = (greeting, name) => {
     return `${greeting} ${name}`
 }
 
