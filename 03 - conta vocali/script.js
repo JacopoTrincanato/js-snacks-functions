@@ -1,11 +1,14 @@
 /* Scrivi una funzione che accetti una stringa e restituisca il numero di vocali contenute al suo interno */
 
 const word = 'javascript';
+const arrWord = word.split();
+console.log(arrWord);
+
 
 
 // Dichiara la funzione qui.
 function findVowels(string) {
-    
+
 }
 
 // Invoca la funzione qui e stampa il risultato in console
