@@ -3,10 +3,10 @@
 const word = 'javascript';
 
 // Dichiara la funzione qui.
-function findVowels(letter) {
-    const arrWord = word.split();
+function findVowels(string) {
+    const arrWord = word.split('');
     const vowels = ['a', 'e', 'i', 'o', 'u'];
-    for (let i = 0; i < array.length; i++) {
+    for (let i = 0; i < arrWord.length; i++) {
         const element = array[i];
 
         
@@ -14,6 +14,7 @@ function findVowels(letter) {
 }
 
 // Invoca la funzione qui e stampa il risultato in console
+console.log(findVowels(word));
 
 
 
