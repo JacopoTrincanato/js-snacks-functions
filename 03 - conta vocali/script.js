@@ -4,18 +4,19 @@ const word = 'javascript';
 
 // Dichiara la funzione qui.
 function findVowels(string) {
-    const vowelsCounter = 0;
     const arrWord = word.split('');
-    const vowels = ['a', 'e', 'i', 'o', 'u'];
     for (let i = 0; i < arrWord.length; i++) {
+        const vowelsCounter = 0;
         const element = arrWord[i];
         console.log(element);
+        const vowels = ['a', 'e', 'i', 'o', 'u'];
+        const char = vowels[i];
         
-        if (arrWord.includes('a')) {
-            vowelsCounter ++
+        if (arrWord.includes(char)) {
+            return vowelsCounter ++
         }
     }
-    return vowelsCounter
+    return string
 }
 
 
