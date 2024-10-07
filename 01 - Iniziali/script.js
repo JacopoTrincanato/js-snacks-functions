@@ -5,17 +5,14 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 
 // Dichiara la funzione qui.
 function findArrNames(array) {
+    const firstLetterArr = [];
     for (i = 0; i < array.length; i++) {
         const element = array[i];
-        //console.log(element);
         const firstLetter = element[0];
-        //console.log(firstLetter);
-        const firstLetterArr = [];
         firstLetterArr.push(firstLetter);
-        return firstLetterArr
-        
         
     }
+    return firstLetterArr
 }
 
 
