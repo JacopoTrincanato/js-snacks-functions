@@ -1,3 +1,18 @@
+/* Scrivi una funzione che accetti una stringa contenente un nome e restituisca un saluto seguito dal nome fornito (es. "Ciao [nome]") */
+
+const name1 = 'Mario';
+
+
+// Dichiara la funzione qui.
+
+
+// Invoca la funzione qui e stampa il risultato in console
+
+
+
+//Risultato atteso se si passa 'Mario': // ciao Mario
+
+
 /* Scrivi una funzione che accetti una stringa contenente un nome e restituisca un saluto seguito dal nome fornito. 
 Il saluto deve essere :
 buongiorno se è mattina (fino alle 13), 
