@@ -4,7 +4,9 @@ const name1 = 'Mario';
 
 
 // Dichiara la funzione qui.
-
+function hello(name) {
+    return (`ciao + ${name}`)
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
