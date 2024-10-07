@@ -27,9 +27,30 @@ const name = 'Mario';
 
 
 // Dichiara la funzione qui.
+function helloBonus(name) {
+    let now = new Date();
+    let hours = now.getHours();
+    let minutes = now.getMinutes();
+    let seconds = now.getSeconds();
+    let currentTime = (`${hours}:${minutes}:${seconds}`);
 
+    if (currentTime <= 13) {
+        console.log(`buongiorno ${name}`);
+         
+    
+    }else if(currentTime > 13 && currentTime <= 17) {
+        console.log(`buon pomeriggio ${name}`);
+    
+    }else {
+        console.log(`buonasera ${name}`);
+
+    }
+
+    return currentTime
+}
 
 // Invoca la funzione qui e stampa il risultato in console
+console.log(helloBonus(name));
 
 
 
