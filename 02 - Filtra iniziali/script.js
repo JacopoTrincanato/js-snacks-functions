@@ -10,7 +10,7 @@ function sameInitialLetter(array, letter) {
         const element = array[i];
         const firstLetter = element[0];
         if (firstLetter === letter){
-            newArray.push();
+            newArray.push(element);
         }
     }
 
