@@ -4,6 +4,10 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Laura", "Alessandra"];
 
 
 // Dichiara la funzione qui.
+/**
+ * @param {array} array
+ * @param {character} letter
+*/
 function sameInitialLetter(array, letter) {
     const newArray = [];
     for (let i = 0; i < array.length; i++) {

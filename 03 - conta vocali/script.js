@@ -3,6 +3,9 @@
 const word = 'javascript';
 
 // Dichiara la funzione qui.
+/**
+ * @param {string} string
+*/
 function findVowels(string) {
     const arrWord = string.split('');
     let vowelsCounter = 0;

@@ -28,6 +28,10 @@ let saluto = '';
 
 
 // Dichiara la funzione qui.
+/**
+ * @param {string} greeting 
+ * @param {string} name
+*/
 function helloBonus(name) {
     let now = new Date();
     let hours = now.getHours();
@@ -51,12 +55,19 @@ function helloBonus(name) {
 }
 
 //arrow function
+/**
+ * @param {string} greeting 
+ * @param {string} name
+*/
 const helloBonus2 = (greeting, name) => {
     return `${greeting} ${name}`
 }
 
 //arrow function semplificata
-
+/**
+ * @param {string} greeting 
+ * @param {string} name
+*/
 const helloBonus3 = (greeting, name) => `${greeting} ${name}`;
 
 // Invoca la funzione qui e stampa il risultato in console
