@@ -50,8 +50,17 @@ function helloBonus(name) {
     return `${saluto} ${name}`
 }
 
+//arrow function
+function helloBonus2(greeting, name) {
+    return `${greeting} ${name}`
+}
+
 // Invoca la funzione qui e stampa il risultato in console
 console.log(helloBonus(name));
+
+//invocazione arrow function
+console.log(helloBonus2('buonasera', 'Mario'));
+
 
 
 
