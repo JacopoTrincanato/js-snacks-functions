@@ -4,7 +4,9 @@ const word = 'javascript';
 
 
 // Dichiara la funzione qui.
-
+function findVowels(string) {
+    
+}
 
 // Invoca la funzione qui e stampa il risultato in console
 
