@@ -24,26 +24,25 @@ e buonasera se è sera (oltre le 17)
 */
 
 const name = 'Mario';
-let saluto = '';
+
 
 
 // Dichiara la funzione qui.
 /**
- * @param {string} greeting 
  * @param {string} name
 */
 function helloBonus(name) {
     let now = new Date();
     let hours = now.getHours();
-    let minutes = now.getMinutes();
-    let seconds = now.getSeconds();
-    let currentTime = (`${hours}:${minutes}:${seconds}`);
-    
+    //let minutes = now.getMinutes();
+    //let seconds = now.getSeconds();
+    //let currentTime = (`${hours}:${minutes}:${seconds}`);
+    let saluto = '';
 
-    if (currentTime <= 13) {
+    if (hours < 13) {
         saluto = ('buongiorno');
          
-    }else if(currentTime > 13 && currentTime <= 17) {
+    }else if(hours < 17) {
         saluto = ('buon pomeriggio');
     
     }else {
