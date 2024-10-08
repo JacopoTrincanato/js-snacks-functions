@@ -8,16 +8,19 @@ const word = 'javascript';
 */
 function findVowels(string) {
     const arrWord = string.split('');
-    let vowelsCounter = 0;
+    //let vowelsCounter = 0;
+    let foundVowels = [];
     const vowels = ['a', 'e', 'i', 'o', 'u'];
     for (let i = 0; i < arrWord.length; i++) {
         const element = arrWord[i];
         
         if (vowels.includes(element)) {
-            vowelsCounter ++;
+            foundVowels.push(element)
+            //vowelsCounter ++;
         }
     }
-    return vowelsCounter
+    //return vowelsCounter
+    return foundVowels.length
 }
 
 

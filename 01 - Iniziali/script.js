@@ -9,7 +9,7 @@ const names = ["Anna", "Luca", "Marco", "Adele", "Giovanni", "Alessandra"];
 */
 function findArrNames(array) {
     const firstLetterArr = [];
-    for (i = 0; i < array.length; i++) {
+    for (let i = 0; i < array.length; i++) {
         const element = array[i];
         const firstLetter = element[0];
         firstLetterArr.push(firstLetter);
